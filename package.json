@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "node_modules\\.bin\\webpack-dev-server --inline --hot --open --port 9999",
-    "build":"webpack"
+    "build": "webpack"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vue-preview": "^1.0.5"
+  }
 }
